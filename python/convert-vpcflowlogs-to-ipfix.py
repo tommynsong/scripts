@@ -5,7 +5,6 @@ import socket
 import base64
 import logging
 import gzip
-import json
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
