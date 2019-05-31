@@ -10,7 +10,7 @@ logger.setLevel(logging.INFO)
 
 
 def lambda_handler(event, context):
-    """Convert AWS's VPC Flow Log to IPFIX format"""
+    """Convert AWS's VPC Flow Log to IPFIX format."""
     ipfixHost = os.environ['IPFIX_HOST']
     ipfixPort = os.environ['IPFIX_PORT']
     ipfixProto = os.environ['IPFIX_PROTO']
