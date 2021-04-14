@@ -1,0 +1,4 @@
+.pytest*
+nodeids
+stepwise
+.DS_Store
